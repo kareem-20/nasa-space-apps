@@ -32,6 +32,7 @@ ion-content {
     background-color: rgba(0, 0, 0, .7);
     border-radius: 16px;
     text-align: center;
+    color: #FFF;
 
     div>p:first-of-type {
       font-size: 26px;
@@ -40,7 +41,7 @@ ion-content {
     }
 
     div>p:last-of-type {
-      font-size: 36px;
+      font-size: 30px;
     }
   }
 }
