@@ -1,0 +1,47 @@
+.container {
+  padding: 0 16px 32px;
+  margin: auto;
+  max-width: 768px;
+}
+
+body {}
+
+ion-content {
+  --background: url('../../assets/Coronal_mass_ejections_for--1400x800.jpeg') no-repeat center 100%;
+  position: relative;
+
+  .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  .counter {
+    display: flex;
+    justify-content: space-evenly !important;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 16px;
+    text-align: center;
+
+    div>p:first-of-type {
+      font-size: 26px;
+      margin-bottom: 0;
+
+    }
+
+    div>p:last-of-type {
+      font-size: 36px;
+    }
+  }
+}
